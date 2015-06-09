@@ -76,7 +76,7 @@ Rails.application.configure do
   #Required for Herokdu
   #Not to set this to your actual host
   config.action_mailer.default_url_options = { host: 'http://omr-pinterestinglhb.herokuapp.com'}
-end 
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
