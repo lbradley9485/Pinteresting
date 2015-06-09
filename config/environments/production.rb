@@ -75,7 +75,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
   #Required for Herokdu
   #Not to set this to your actual host
-  config.action_mailer.default_url_options = { host: => 'omr-pinterstinglhb.herokuapp.com'}
+  config.action_mailer.default_url_options =  host: => 'omr-pinterstinglhb.herokuapp.com'
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
